@@ -1,0 +1,132 @@
+*{
+    background-image: url(./140\ Aesthetic\ Movies\ That\ Are\ A\ Blessing\ For\ Your\ Eyes.jpeg);
+    z-index: -1;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* navigationbas */
+#navigation{
+    height: 60px;
+    z-index: 1;
+    padding: 5px;
+    margin: 10px;
+    background-image: none;
+}
+#content{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: end;
+    align-items: center;
+    background-image: none;
+    
+}
+#content>p{
+    font-size: 1.1rem;
+    z-index: 3;
+    background-image: none;
+    color: white;
+}
+.profile{
+    height: 45px;
+    border-radius: 50%;
+    
+}
+#content>p>i{
+   background-image: none;
+   color: white;
+}
+
+/* centralcontent */
+#central{
+    background-image: none;
+    height: 80vh;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Ccontent{ 
+    background-image: none;
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    gap: 20px;
+    z-index: 3;
+}
+.Ccontent>h1{
+    z-index: 3;
+    color: white;
+    font-size: 5.5rem;
+    background-image: none;
+    font-weight: 700;
+}
+.Ccontent>.searchbar{
+background-image: none;
+background-color: white;
+z-index: 3;
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 500px;
+height: 40px;
+border-radius: 30px;
+}
+#icons{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    background-image: none;
+
+}
+.icon{
+    height: 60px; 
+    background-color: rgb(2, 89, 110); 
+    background-image: none;
+    border-radius: 50%;
+    z-index: 4;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon>img{
+    height: 40px;
+    font-size: 2rem;
+     background-image: none; 
+}
+.icon>i{
+    justify-self: center;
+    align-self: center;
+    height: 35px;
+    font-size: 2rem;  
+    background-image: none;
+    color: gray;
+}
+#iconname{
+    background-image: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+#iconname>p{
+     background-image: none; 
+     font-size: 1.1rem;
+     color: rgb(13, 89, 102);
+
+}
+.border{
+    height: 60px;
+    color: rgb(190, 230, 248);
+    z-index: 2;
+    border: 2px solid transparent;
+}
+.border:hover{
+border: 05px solid ;
+}
